@@ -1,0 +1,245 @@
+@font-face {
+    font-family: Prompt;
+    src: url(../../font/Prompt-Regular.ttf);
+}
+
+* {
+    font-family: Prompt;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+:root {
+    --g: #a8d6e5;
+    --b: #192a56;
+    --light: #ccc;
+    --box-shadow: 0 .5rem 1.5rem rgba(192, 192, 192);
+    
+}
+
+html {
+    font-size: 63.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+header {
+    top: 0; left: 0; right: 0;
+    display: flex;
+    position:fixed ;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+    
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--g);
+    font-weight: bolder;
+
+}
+
+header .navbar a {
+    font-size: 1.7rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    color: var(--light);
+    margin-top: 5rem;
+    /* text-align: center; */
+    /* margin-left: 5rem; */
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: var(--g);
+    border-radius: 0px 0px 15px 15px;
+    color: white;
+    margin-top: 1rem;
+}
+
+.search-layout {
+    border-radius: 15px;
+    border: 2px solid var(--g);
+    padding: 0.5rem;
+}
+
+
+.dishes{
+    margin-top: 8rem;
+    top: 0; left: 0; right: 0;
+    background-color:rgb(231, 253, 255);
+    
+    /* background-color: red; */
+}
+
+/* .dishes .box-container{
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto,minmax(28rem,1fr));
+} */
+
+.dishes .box-container{
+    /* gap: 1rem; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+.box-container .box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10rem;
+    /* background-color: #fff; */
+    /* justify-content: start;
+    text-align: start; */
+    background-color:rgb(231, 253, 255);
+    text-align: center;
+    padding: 0.5rem;
+    /* margin-left: 10rem;
+    margin-right: 10rem; */
+    
+}
+
+ h2{
+    font-size: 2rem;
+    color:var(--light);
+    margin-left: 10rem;
+}
+
+.box-container .box .image{
+
+}
+
+.box-container .box .image img{
+    height: 22rem;
+    width: 28rem;
+    border-radius: 15px;
+}
+
+
+
+menu{
+    display: flex;
+    justify-content: row;
+}
+
+.box1{
+    background-color:#fff;   
+    box-shadow: var(--box-shadow);
+    top: 0; left: 0; right: ;
+     border: var(--box-shadow);
+    margin-top:5rem ;
+    margin-left: 15rem;
+    display: flex;
+    align-items: start;
+    margin-right: 15rem;
+    border-radius: 15px;
+}
+
+
+
+.image {
+    padding: 2rem;
+
+}
+
+.image1 img{
+    width: 32rem;
+    height: 20rem;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: var(--g);
+}
+
+p{
+    /* margin-top: 2rem; */
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+img.a {
+    height: 150px;
+    width: 150px;
+}
+
+.btn-green {
+    background-color: var(--g);
+    color: #fff;
+    border-radius: 15px;
+    border: 2px solid var(--g);
+}
+
+.btn-de{
+    background-color: var(--g);
+    color: #fff;
+    border-radius:15px 0 0  15px;
+    border: 2px solid var(--g);
+    padding: 1rem;
+    font-size: 3rem;
+
+}
+
+.btn-layout{
+    display: flex;
+    margin-top: 4rem;
+    text-align: center;
+    align-items: center;
+    margin-left: 15rem;
+    
+    
+}
+
+
+
+.text{
+    /* padding-right:100rem ;    */
+    width: 100rem;
+
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }

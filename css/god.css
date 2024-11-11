@@ -1,0 +1,30 @@
+.btn-god{
+    font-size: 1.2rem;
+    background-color: powderblue;
+    color: white;
+    cursor: pointer;
+    padding: .8rem 3rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.f{
+    font-size: 1.7rem;
+    color: rgb(138, 255, 123);
+    border-radius: 1000px;
+    padding: .3rem 1rem;
+    background-color: ;
+}
+
+.fa{
+    font-size: 2.7rem;
+    color: #192a52;
+}
+
+.fb{
+    font-size: 1.7rem;
+    color: #60a6bd;
+}
+
