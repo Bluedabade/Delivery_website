@@ -1,0 +1,2 @@
+<?php
+$conn = mysqli_connect("localhost","ietdevco_skill","qwerty","ietdevco_skill") or die("เชื่อมต่อฐานข้อมูลไม่ได้");
